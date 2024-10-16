@@ -20,7 +20,7 @@ jobs:
       - name: test
         run: make test
       - name: create sample data, create database and load data
-        run: make database-setup
-      - name: test CRUD operations
-        run: make run-crud
+        run: make setup
+      - name: test CRUD operations and complex SQL query
+        run: make run
       
