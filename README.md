@@ -42,6 +42,8 @@ The connection to the AWS RDS MySQL database is established using the following 
 2. Create an SSH tunnel from the EC2 instance to the RDS MySQL database.
 3. Connect to the database through this secure tunnel using PyMySQL.
 
+All operations are tested in main.py and executed in the GitHub Action step "test CRUD operations and complex SQL query". You can check the Actions tab to view all output results.
+
 ## Preparation
 
 1. Install all the packages `make install`
@@ -171,3 +173,4 @@ This project implements the following basic CRUD (Create, Read, Update, Delete) 
    ORDER BY balance DESC
    ```
    This query retrieves users whose balance exceeds a specified threshold, ordering the results by balance in descending order.
+
