@@ -62,7 +62,7 @@ def main():
     print()
 
     # Get users with high balance
-    print("Users with balance over 500, using where query:")
+    print("Users with balance over 900, using where query:")
     high_balance_users = db.get_users_with_high_balance(900)
     pprint(high_balance_users)
     print()
