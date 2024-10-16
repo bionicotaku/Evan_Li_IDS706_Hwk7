@@ -24,10 +24,10 @@ container-lint:
 		
 all: install format lint test
 
-database-setup:
+setup:
 	python ./mylib/setup.py
 
-run-crud:
+run:
 	python main.py
 # generate_and_push:
 # 	# Create the markdown file 
