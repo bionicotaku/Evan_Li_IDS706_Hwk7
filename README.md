@@ -5,7 +5,6 @@
 ### File Structure
 
 ```
-README.md
 Evan_Li_IDS706_Hwk7/
 ├── .devcontainer/
 │ ├── devcontainer.json
